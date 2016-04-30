@@ -1,0 +1,13 @@
+services:
+#    admc_core.example:
+#        class: ADMC\CoreBundle\Example
+#        arguments: ["@service_id", "plain_value", %parameter%]
+
+
+    admc_core.antispam:
+        class: ADMC\CoreBundle\Antispam\ADMCAntispam
+        arguments: [50]
+        
+
+parameters:
+    variableEnvironment: 'test'
